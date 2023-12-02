@@ -1,0 +1,128 @@
+:root {
+  --secondary-color: #83ac92;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+body {
+  background-color: #f1fcf8;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  background: url("/images//hero_background.jpg");
+  background-size: cover;
+  margin: 40px auto 50px auto;
+  padding: 100px 50px;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+}
+.hero-photo {
+  width: 270px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.hero-text {
+  color: #000000;
+  margin-left: 100px;
+}
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  text-align: center;
+}
+
+.hero h3 {
+  font-family: var(--heading-font-family);
+  font-style: italic;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  font-family: "Popins", sans-serif;
+  font-size: 24px;
+}
+.my-projects {
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: var(--box-shadow);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+.my-projects-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-style: italic;
+  text-align: center;
+  font-family: var(--heading-font-family);
+}
+.my-projects img {
+  border-radius: 5px;
+}
+.about-project {
+  padding: 60px 20px;
+}
+.project-name {
+  font-size: 36px;
+  font-weight: bold;
+}
+.project-description {
+  font-size: 18px;
+}
+
+.btn-branding-outline {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 42px;
+  }
+  .project-name {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 990px) {
+  .hero {
+    padding: 50px 20px;
+  }
+  .hero-text {
+    margin-left: 0px;
+  }
+  h1 {
+    font-size: 42px;
+  }
+  .hero h3 {
+    font-size: 28px;
+  }
+
+  .about-project {
+    padding: 0;
+    text-align: center;
+  }
+
+  .container p {
+    margin: auto 15px 10px 15px;
+  }
+}
