@@ -127,7 +127,7 @@ p {
 }
 @media (max-width: 1200px) {
   h1 {
-    font-size: 42px;
+    font-size: 42px !important;
   }
   .project-name {
     font-size: 36px;
@@ -140,9 +140,6 @@ p {
   }
   .hero-text {
     margin-left: 0px;
-  }
-  h1 {
-    font-size: 42px;
   }
   .hero h3 {
     font-size: 28px;
