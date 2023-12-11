@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Daria Romanova is a front-end and Android developer based in Ukraine."
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -25,18 +29,23 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/styles/style.css" type="text/css" />
-    <title>Daria Romanova</title>
+    <title>Daria Romanova: Front-end and Android developer</title>
   </head>
   <body>
     <nav>
       <a href="/"
-        ><img src="/images/logo.png" class="logo d-none d-md-block" alt=""
+        ><img
+          src="/images/logo.png"
+          class="logo d-none d-md-block"
+          alt="Daria Romanova logo"
       /></a>
       <ul>
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="/about.html">About me</a></li>
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/contacts.html">Contacts</a></li>
+        <li class="active"><a href="/" title="Homepage">Home</a></li>
+        <li><a href="/about.html" title="About DariiaRomanova">About me</a></li>
+        <li><a href="/work.html" title="Daria's works">Work</a></li>
+        <li>
+          <a href="/contacts.html" title="Contact with Daria">Contacts</a>
+        </li>
       </ul>
     </nav>
     <div class="container hero">
@@ -44,7 +53,11 @@
         <h1>Daria Romanova</h1>
         <h3>Front-end and Android developer based in Ukraine</h3>
       </div>
-      <img class="hero-photo d-none d-lg-block" src="/images/hero-photo.png" />
+      <img
+        class="hero-photo d-none d-lg-block"
+        src="/images/hero-photo.png"
+        alt="Daria Romanova Photo"
+      />
     </div>
 
     <div class="container my-projects">
@@ -88,7 +101,9 @@
               tab. The application is written in Java, utilizing the Retrofit
               library, the Firebase platform, and so on.
             </p>
-            <a href="#" class="btn btn-branding-outline">View detail project</a>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >View detail project</a
+            >
           </div>
         </div>
         <div class="col-5 d-none d-lg-block">
@@ -109,14 +124,18 @@
           </div>
           <div>
             <a
-              href="mailto:dariia.o.romanova@gmail.com"
+              href="/contacts.html"
               class="btn btn-branding"
+              title="Contact Daria"
               ><i class="fa-regular fa-envelope"></i
             ></a>
           </div>
         </div>
         <div class="d-flex justify-content-center">
-          <a href="mailto:dariia.o.romanova@gmail.com" class="email-link"
+          <a
+            href="mailto:dariia.o.romanova@gmail.com"
+            class="email-link"
+            title="Email Daria"
             >dariia.o.romanova@gmail.com</a
           >
         </div>
@@ -126,34 +145,48 @@
             href="https://www.instagram.com/_daria__romanova_/"
             target="_blank"
             class="contacts-link"
+            title="Instagram Profile"
             ><i class="fa-brands fa-instagram"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/dariia-romanova-2950a1295/"
             target="_blank"
             class="contacts-link"
+            title="LinkedIn Profile"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
           <a
             href="https://github.com/DariiaRomanova"
             target="_blank"
             class="contacts-link"
+            title="GitHub Profile"
           >
             <i class="fa-brands fa-github"></i
           ></a>
           <a
-            href="https://t.me/DariiaRomanova"
+            href="https://t.me/daria_o_romanova"
             target="_blank"
             class="contacts-link"
+            title="Telegram"
             ><i class="fa-brands fa-telegram"></i
           ></a>
           <a
             href="https://wa.me/380934020405"
             target="_blank"
             class="contacts-link"
+            title="WhatsApp"
             ><i class="fa-brands fa-whatsapp"></i
           ></a>
         </div>
+        <p class="text-center text-muted mt-5 signature">
+          Coded by Daria Romanova, 2023.
+          <a
+            href="https://github.com/DariiaRomanova/my_portfolio"
+            target="_blank"
+            title="GitHub link to a project"
+            >Open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

@@ -9,7 +9,7 @@ body {
   background-color: #f1fcf8;
 }
 nav {
-  margin: 20px 140px;
+  margin: 30px 140px;
   display: flex;
   justify-content: space-between;
 }
@@ -221,9 +221,9 @@ footer .social-links a:hover {
   color: #ffffff;
   background-color: var(--secondary-color);
 }
-footer .phone-number {
-  font-size: 22px;
-  margin-top: 15px;
+footer .signature {
+  font-size: 14px;
+  font-family: var(--default-font-family);
 }
 
 @media (max-width: 1200px) {
